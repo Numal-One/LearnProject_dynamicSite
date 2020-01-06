@@ -19,12 +19,14 @@ function getPrimeNumbers($input){
     $outPrimeNumbers = [2];
   }
 
+  
   $innerPrimeNumbers = [2];
   $otherNumbers = [];
   $outPrimeNumbers = [];
 
   for ($i = 3; $i <= $max; $i++){
     $isPrime = true;
+
 
     foreach ($innerPrimeNumbers as $value) {
       $division = $i % $value;
