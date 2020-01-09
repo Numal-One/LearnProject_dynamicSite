@@ -1,10 +1,5 @@
 
-<?php
 
-$mainPath = $_SERVER['DOCUMENT_ROOT'] . "/ex3/with/templatest/blocks/";
-$srcPath = "src/";
-
-?>
 
 
 <!DOCTYPE html>
@@ -23,6 +18,11 @@ $srcPath = "src/";
 
     <?php   include_once ($_SERVER['DOCUMENT_ROOT'] . "/ex3/with/templatest/blocks/main-slider.php");  ?>
     
+
+    <div class="grid-container">
+      <h1>Аренда бытовки</h1>
+    </div>
+    
     <?php   include_once ($_SERVER['DOCUMENT_ROOT'] . "/ex3/with/templatest/blocks/bytovka-preview.php");  ?>
     
     <?php   include_once ($_SERVER['DOCUMENT_ROOT'] . "/ex3/with/templatest/blocks/main-map.php");  ?>
@@ -37,8 +37,18 @@ $srcPath = "src/";
      
     <?php   include_once ($_SERVER['DOCUMENT_ROOT'] . "/ex3/with/templatest/blocks/main-photogallery.php");  ?>
 
-    <?php   include_once ($_SERVER['DOCUMENT_ROOT'] . "/ex3/with/templatest/blocks/price.php");  ?>
-      
+    <div class="price">
+      <div class="grid-container">
+        <div class="price_heading">
+          <div class="heading">Цены на аренду блок-контейнеров</div>
+          <div class="link-more"><a href="/czenyi/">Перейти в раздел</a></div>
+        </div>
+
+        <?php   include_once ($_SERVER['DOCUMENT_ROOT'] . "/ex3/with/templatest/blocks/price.php");  ?>
+
+      </div>
+    </div>
+
     <?php   include_once ($_SERVER['DOCUMENT_ROOT'] . "/ex3/with/templatest/blocks/seo-text.php");  ?>
       
     <?php   include_once ($_SERVER['DOCUMENT_ROOT'] . "/ex3/with/templatest/blocks/often-question.php");  ?>

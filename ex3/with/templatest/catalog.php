@@ -23,9 +23,7 @@ $srcPath = "../src";
             <li><span>Аренда бытовки</span></li>
           </ul>
         </div>
-        <div class="grid-container">
-          <h1>Аренда бытовки</h1>
-        </div>
+        
         
         <?php include_once ($_SERVER['DOCUMENT_ROOT'] . "/ex3/with/templatest/blocks/bytovka-preview.php");?>
 

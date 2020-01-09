@@ -1,12 +1,9 @@
-<div class="price">
-        <div class="grid-container">
-          <div class="price_heading">
-            <div class="heading">Цены на аренду блок-контейнеров</div>
-            <div class="link-more"><a href="/czenyi/">Перейти в раздел</a></div>
-          </div>
+
+          
+          
           <div class="price_wrapper">
             <div class="price_item">
-              <div class="price_img"><a data-fancybox="price" href="./src/assets/img/price.jpg" title=""><img src="./src/assets/img/price.jpg" alt="" title=""><a class="lupa" data-fancybox="price" href="./src/assets/img/price.jpg"></a></a></div>
+              <div class="price_img"><a data-fancybox="price" href="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/price.jpg" title=""><img src="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/price.jpg" alt="" title=""><a class="lupa" data-fancybox="price" href="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/price.jpg"></a></a></div>
               <div class="price_content">
                 <div class="price_description">
                   <div class="price_title"> Блок контейнер 2,5 х 6 м</div>
@@ -19,7 +16,7 @@
               </div>
             </div>
             <div class="price_item">
-              <div class="price_img"><a data-fancybox="price" href="./src/assets/img/price.jpg" title=""><img src="./src/assets/img/price.jpg" alt="" title=""><a class="lupa" data-fancybox="price" href="./src/assets/img/price.jpg"></a></a></div>
+              <div class="price_img"><a data-fancybox="price" href="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/price.jpg" title=""><img src="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/price.jpg" alt="" title=""><a class="lupa" data-fancybox="price" href="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/price.jpg"></a></a></div>
               <div class="price_content">
                 <div class="price_description">
                   <div class="price_title"> Блок контейнер 2,5 х 6 м</div>
@@ -32,7 +29,7 @@
               </div>
             </div>
             <div class="price_item">
-              <div class="price_img"><a data-fancybox="price" href="./src/assets/img/price.jpg" title=""><img src="./src/assets/img/price.jpg" alt="" title=""><a class="lupa" data-fancybox="price" href="./src/assets/img/price.jpg"></a></a></div>
+              <div class="price_img"><a data-fancybox="price" href="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/price.jpg" title=""><img src="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/price.jpg" alt="" title=""><a class="lupa" data-fancybox="price" href="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/price.jpg"></a></a></div>
               <div class="price_content">
                 <div class="price_description">
                   <div class="price_title">Бытовка склад 2400 x 6000 см</div>
@@ -45,7 +42,7 @@
               </div>
             </div>
             <div class="price_item">
-              <div class="price_img"><a data-fancybox="price" href="./src/assets/img/price.jpg" title=""><img src="./src/assets/img/price.jpg" alt="" title=""><a class="lupa" data-fancybox="price" href="./src/assets/img/price.jpg"></a></a></div>
+              <div class="price_img"><a data-fancybox="price" href="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/price.jpg" title=""><img src="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/price.jpg" alt="" title=""><a class="lupa" data-fancybox="price" href="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/price.jpg"></a></a></div>
               <div class="price_content">
                 <div class="price_description">
                   <div class="price_title">Бытовка-офис 2400 x 6000см</div>
@@ -58,7 +55,7 @@
               </div>
             </div>
             <div class="price_item">
-              <div class="price_img"><a data-fancybox="price" href="./src/assets/img/price.jpg" title=""><img src="./src/assets/img/price.jpg" alt="" title=""><a class="lupa" data-fancybox="price" href="./src/assets/img/price.jpg"></a></a></div>
+              <div class="price_img"><a data-fancybox="price" href="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/price.jpg" title=""><img src="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/price.jpg" alt="" title=""><a class="lupa" data-fancybox="price" href="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/price.jpg"></a></a></div>
               <div class="price_content">
                 <div class="price_description">
                   <div class="price_title"> Блок контейнер 2,5 х 6 м</div>
@@ -74,5 +71,4 @@
           <div class="grid-x">
             <div class="price_link"><span class="btn_blue">Показать еще</span></div>
           </div>
-        </div>
-      </div>
+        
