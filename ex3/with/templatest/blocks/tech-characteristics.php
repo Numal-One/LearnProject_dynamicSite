@@ -1,5 +1,5 @@
 <?php
-$teachChar = array(
+$bytovkaTechCharacteristics = array(
   1 => array(
     "title" => "Стандартная бытовка",
     "charsTableHead" => "Характеристики стандартной строительной бытовки",
@@ -52,7 +52,7 @@ $teachChar = array(
           <div class="tech-characteristics-wrapper">
             
             <?php
-              foreach ($teachChar as  $homeChars) {
+              foreach ($bytovkaTechCharacteristics as  $homeChars) {
 
                 echo '
                 <div class="tech-characteristics-item">
