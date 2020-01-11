@@ -1,7 +1,3 @@
-<?php
-
-?>
-
 
 <div class="mobile_menu">
       <div class="mobile_wrap">
@@ -13,7 +9,28 @@
       </div>
       <div class="dropdown_menu">
         <ul class="menu">
-          <li class="parent"><a href="/czenyi/">Аренда бытовки</a>
+
+        <?php
+        foreach ($navMenuData as $menuItm) {
+          echo ' <li class="parent"><a href="http://'.$_SERVER['SERVER_NAME'].'/ex3/with/templatest/'.$menuItm['fileName'].'">'.$menuItm['name'].'</a>';
+            
+          if (count($menuItm['submenu']) !== 0) {
+              echo '<ul class="submenu">';
+                foreach ($menuItm['submenu'] as $submenuItm) {
+                  echo '<li><a href="http://'.$_SERVER['SERVER_NAME'].'/ex3/with/templatest/'.$submenuItm['fileName'].'">'.$submenuItm['name'].'</a></li>';
+                }
+              echo '
+              </ul>
+              <div class="menu-arrows"></div>
+              ';
+            }
+
+          echo '</li>';
+        }
+        ?>
+
+          <!-- <li class="parent"><a href="/czenyi/">Аренда бытовки</a>
+
             <ul class="submenu">
               <li><a href="#">Аренда бытовок в Видном</a></li>
               <li><a href="#">Аренда бытовок в Домодедово</a></li>
@@ -24,12 +41,16 @@
               <li><a href="#">Аренда бытовок в Видном</a></li>
               <li><a href="#">Аренда бытовок в Домодедово</a></li>
             </ul>
+
             <div class="menu-arrows"></div>
+
           </li>
+
           <li><a href="/dostavka/">Цены</a></li>
           <li><a href="/czenyi/">Доставка</a></li>
           <li><a href="/fotogalereya/ ">Фотогалерея</a></li>
-          <li><a href="/kontaktyi/ ">Контакты</a></li>
+          <li><a href="/kontaktyi/ ">Контакты</a></li> -->
+
         </ul>
         <div class="search">
           <form class="search_form" method="" action="">

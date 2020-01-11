@@ -10,12 +10,22 @@
         <div class="footer_nav">
             <div class="footer_logo"><a href="/">Бытовки-Сервис.ru</a></div>
             <ul class="footer_menu">
-            <li><a href="/">Аренда бытовки</a></li>
+            
+            <?php
+            foreach ($navMenuData as $menuItm) {
+            echo ' <li><a href="http://'.$_SERVER['SERVER_NAME'].'/ex3/with/templatest/'.$menuItm['fileName'].'">'.$menuItm['name'].'</a></li>';
+            }
+            ?>
+
+            
+            <!-- <li><a href="/">Аренда бытовки</a></li>
             <li><a href="/czenyi/ ">Цены</a></li>
             <li><a href="/dostavka/">Доставка</a></li>
             <li><a href="/fotogalereya/">Фотогалерея</a></li>
-            <li><a href="/kontaktyi/">Контакты</a></li>
+            <li><a href="/kontaktyi/">Контакты</a></li> -->
+
             </ul>
+            
         </div>
         <div class="footer_links">
             <div class="footer_phones"><a class="phone" href="tel:+74957985563">+7 (495) 798-55-63</a><a class="phone" href="tel:+74956418568">+7 (495) 641-85-68</a></div><a class="callback" href="#">Обратный звонок</a>

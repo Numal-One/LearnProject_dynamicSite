@@ -1,4 +1,65 @@
 <?php
+$navMenuData = array(
+  1 => array(
+    'name' => 'Аренда бытовок',
+    'fileName' => 'catalog.php',
+    'submenu' => array(
+      1 => array(
+        'name' => 'Аренда бытовок в Видном',
+        'fileName' => 'catalog.php'
+      ),
+      2 => array(
+        'name' => 'Аренда бытовок в Домодедово',
+        'fileName' => 'catalog.php'
+      ),
+      3 => array(
+        'name' => 'Аренда бытовок в Видном',
+        'fileName' => 'catalog.php'
+      ),
+      4 => array(
+        'name' => 'Аренда бытовок в Домодедово',
+        'fileName' => 'catalog.php'
+      ),
+      5 => array(
+        'name' => 'Аренда бытовок в Видном',
+        'fileName' => 'catalog.php'
+      ),
+      6 => array(
+        'name' => 'Аренда бытовок в Домодедово',
+        'fileName' => 'catalog.php'
+      ),
+      7 => array(
+        'name' => 'Аренда бытовок в Видном',
+        'fileName' => 'catalog.php'
+      ),
+      8 => array(
+        'name' => 'Аренда бытовок в Домодедово',
+        'fileName' => 'catalog.php'
+      ),
+      
+    )
+  ),
+  2 => array(
+    'name' => 'Цены',
+    'fileName' => 'price.php',
+    'submenu' => array()
+  ),
+  3 => array(
+    'name' => 'Доставка',
+    'fileName' => 'delivery.php',
+    'submenu' => array()
+  ),
+  4 => array(
+    'name' => 'Фотогалерея',
+    'fileName' => 'photogallery.php',
+    'submenu' => array()
+  ),
+  5 => array(
+    'name' => 'Контакты',
+    'fileName' => 'contacts.php',
+    'submenu' => array()
+  ),
+);
 
 ?>
 
@@ -24,23 +85,45 @@
                 <div class="logo_text">Аренда бытовок и блок контейнеров с 2008 г.</div></a></div>
             <div class="header_menu">
               <ul class="menu">
-                <li><a href="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/catalog.php">Аренда бытовок</a>
+
+                <?php
+                foreach ($navMenuData as $menuItm) {
+                  echo '<li><a href="http://'.$_SERVER['SERVER_NAME'].'/ex3/with/templatest/'.$menuItm['fileName'].'">'.$menuItm['name'].'</a>';
+                    
+                  if (count($menuItm['submenu']) !== 0) {
+                      echo '<ul class="submenu">';
+                        foreach ($menuItm['submenu'] as $submenuItm) {
+                         echo '<li><a href="http://'.$_SERVER['SERVER_NAME'].'/ex3/with/templatest/'.$submenuItm['fileName'].'">'.$submenuItm['name'].'</a></li>';
+                        }
+                      echo '</ul>';
+                    }
+
+                  echo '</li>';
+                }
+                ?>
+               
+                <!-- <li><a href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/catalog.php">Аренда бытовок</a>
+
                   <ul class="submenu">
-                    <li><a href="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/rent.php">Покупать или арендовать?</a></li>
-                    <li><a href="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/bytovka.php">Аренда бытовок в Домодедово</a></li>
-                    <li><a href="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/catalog.php">Аренда бытовок в Видном</a></li>
-                    <li><a href="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/catalog.php">Аренда бытовок в Домодедово</a></li>
-                    <li><a href="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/catalog.php">Аренда бытовок в Видном</a></li>
-                    <li><a href="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/catalog.php">Аренда бытовок в Домодедово</a></li>
-                    <li><a href="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/catalog.php">Аренда бытовок в Видном</a></li>
-                    <li><a href="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/catalog.php">Аренда бытовок в Домодедово</a></li>
+                    <li><a href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/rent.php">Покупать или арендовать?</a></li>
+                    <li><a href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/bytovka.php">Аренда бытовок в Домодедово</a></li>
+                    <li><a href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/catalog.php">Аренда бытовок в Видном</a></li>
+                    <li><a href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/catalog.php">Аренда бытовок в Домодедово</a></li>
+                    <li><a href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/catalog.php">Аренда бытовок в Видном</a></li>
+                    <li><a href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/catalog.php">Аренда бытовок в Домодедово</a></li>
+                    <li><a href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/catalog.php">Аренда бытовок в Видном</a></li>
+                    <li><a href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/catalog.php">Аренда бытовок в Домодедово</a></li>
                   </ul>
+
                 </li>
-                <li><a href="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/price.php">Цены</a></li>
-                <li><a href="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/delivery.php">Доставка</a></li>
-                <li><a href="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/photogallery.php">Фотогалерея</a></li>
-                <li><a href="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/contacts.php">Контакты</a></li>
+
+                <li><a href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/price.php">Цены</a></li>
+                <li><a href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/delivery.php">Доставка</a></li>
+                <li><a href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/photogallery.php">Фотогалерея</a></li>
+                <li><a href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/contacts.php">Контакты</a></li> -->
+
               </ul>
+
               <div class="header-search"><a class="search_btn" href="#"><i class="icon-search"></i></a>
                 <form class="search_form" method="" action="">
                   <div class="search-widget">
