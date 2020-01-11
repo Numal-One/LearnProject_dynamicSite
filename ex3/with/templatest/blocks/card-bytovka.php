@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <div class="grid-container">
           <h1>Бытовка прорабская (офис)</h1>
         </div>

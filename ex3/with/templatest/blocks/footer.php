@@ -1,3 +1,8 @@
+<?php
+
+?>
+
+
 <footer class="site_footer">
     <div class="footer_top">
     <div class="grid-container">

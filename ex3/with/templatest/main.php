@@ -19,10 +19,6 @@
     <?php   include_once ($_SERVER['DOCUMENT_ROOT'] . "/ex3/with/templatest/blocks/main-slider.php");  ?>
     
 
-    <div class="grid-container">
-      <h1>Аренда бытовки</h1>
-    </div>
-    
     <?php   include_once ($_SERVER['DOCUMENT_ROOT'] . "/ex3/with/templatest/blocks/bytovka-preview.php");  ?>
     
     <?php   include_once ($_SERVER['DOCUMENT_ROOT'] . "/ex3/with/templatest/blocks/main-map.php");  ?>

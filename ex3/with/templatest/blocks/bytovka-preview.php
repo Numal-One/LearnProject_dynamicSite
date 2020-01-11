@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 
 <div class="preview_bytovka-wrapper">
           <div class="grid-container">
