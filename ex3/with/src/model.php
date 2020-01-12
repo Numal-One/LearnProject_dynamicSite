@@ -8,6 +8,7 @@ function searchData(&$database, $url_key){
             return $value;
         }
     }
+    echo '<br> not data in base';
     return false;
 
 }

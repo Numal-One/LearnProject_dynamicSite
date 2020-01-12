@@ -12,12 +12,12 @@
 
         <?php
         foreach ($navMenuData as $menuItm) {
-          echo ' <li class="parent"><a href="templatest/'.$menuItm['fileName'].'">'.$menuItm['name'].'</a>';
+          echo ' <li class="parent"><a href="templates/'.$menuItm['fileName'].'">'.$menuItm['name'].'</a>';
             
           if (count($menuItm['submenu']) !== 0) {
               echo '<ul class="submenu">';
                 foreach ($menuItm['submenu'] as $submenuItm) {
-                  echo '<li><a href="templatest/'.$submenuItm['fileName'].'">'.$submenuItm['name'].'</a></li>';
+                  echo '<li><a href="templates/'.$submenuItm['fileName'].'">'.$submenuItm['name'].'</a></li>';
                 }
               echo '
               </ul>

@@ -102,26 +102,6 @@ $navMenuData = array(
                 }
                 ?>
                
-                <!-- <li><a href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/catalog.php">Аренда бытовок</a>
-
-                  <ul class="submenu">
-                    <li><a href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/rent.php">Покупать или арендовать?</a></li>
-                    <li><a href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/bytovka.php">Аренда бытовок в Домодедово</a></li>
-                    <li><a href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/catalog.php">Аренда бытовок в Видном</a></li>
-                    <li><a href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/catalog.php">Аренда бытовок в Домодедово</a></li>
-                    <li><a href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/catalog.php">Аренда бытовок в Видном</a></li>
-                    <li><a href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/catalog.php">Аренда бытовок в Домодедово</a></li>
-                    <li><a href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/catalog.php">Аренда бытовок в Видном</a></li>
-                    <li><a href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/catalog.php">Аренда бытовок в Домодедово</a></li>
-                  </ul>
-
-                </li>
-
-                <li><a href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/price.php">Цены</a></li>
-                <li><a href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/delivery.php">Доставка</a></li>
-                <li><a href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/photogallery.php">Фотогалерея</a></li>
-                <li><a href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/templatest/contacts.php">Контакты</a></li> -->
-
               </ul>
 
               <div class="header-search"><a class="search_btn" href="#"><i class="icon-search"></i></a>

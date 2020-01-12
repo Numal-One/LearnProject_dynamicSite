@@ -151,7 +151,7 @@
                   </div>
                 </div>
 
-                <?php   include_once ($_SERVER['DOCUMENT_ROOT'] . "/ex3/with/templatest/blocks/card-bytovka-calc.php");  ?>
+                <?php   include_once ($_SERVER['DOCUMENT_ROOT'] . "/ex3/with/templates/blocks/card-bytovka-calc.php");  ?>
 
                
                 <div class="preview_bytovka-additional">
