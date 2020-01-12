@@ -87,8 +87,8 @@
                   <?php
                     foreach ($bytovkaCardData['sliderImgs'] as $cardSliderItm) {
                       echo '
-                      <a data-fancybox="sklad" href="http://'.$_SERVER['SERVER_NAME'].'/ex3/with/src/assets/img/preview1.png" title="">
-                      <img src="http://'.$_SERVER['SERVER_NAME'].'/ex3/with/src/assets/img/'.$cardSliderItm['imgName'].'" alt="'.$cardSliderItm['description'].'" title="'.$cardSliderItm['title'].'">
+                      <a data-fancybox="sklad" href="src/assets/img/preview1.png" title="">
+                      <img src="src/assets/img/'.$cardSliderItm['imgName'].'" alt="'.$cardSliderItm['description'].'" title="'.$cardSliderItm['title'].'">
                       </a>
                       ';
                     }
@@ -102,7 +102,7 @@
                     foreach ($bytovkaCardData['sliderImgs'] as $cardSliderItm) {
                       echo '
                       <div class="card_bytovka-nav-item">
-                        <div class="card_bytovka-nav-wrap"><img src="http://'.$_SERVER['SERVER_NAME'].'/ex3/with/src/assets/img/'.$cardSliderItm['imgName'].'" alt="'.$cardSliderItm['description'].'" title="'.$cardSliderItm['title'].'"></div>
+                        <div class="card_bytovka-nav-wrap"><img src="src/assets/img/'.$cardSliderItm['imgName'].'" alt="'.$cardSliderItm['description'].'" title="'.$cardSliderItm['title'].'"></div>
                       </div>
                       ';
                     }
@@ -157,11 +157,11 @@
                 <div class="preview_bytovka-additional">
                   <div class="preview_bytovka-additional-caption">Может дополнительно комплектоваться:</div>
                   <div class="preview_bytovka-icons">
-                    <img src="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/add-ic1.svg" alt="" title="">
-                    <img src="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/add-ic2.svg" alt="" title="">
-                    <img src="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/add-ic3.svg" alt="" title="">
-                    <img src="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/add-ic4.png" alt="" title="">
-                    <img src="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/add-ic5.svg" alt="" title="">
+                    <img src="src/assets/img/add-ic1.svg" alt="" title="">
+                    <img src="src/assets/img/add-ic2.svg" alt="" title="">
+                    <img src="src/assets/img/add-ic3.svg" alt="" title="">
+                    <img src="src/assets/img/add-ic4.png" alt="" title="">
+                    <img src="src/assets/img/add-ic5.svg" alt="" title="">
                   </div>
                 </div>
               </div>

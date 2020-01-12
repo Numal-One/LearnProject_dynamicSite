@@ -40,22 +40,12 @@ $mainPhotogalleryData = array(
           <?php
           foreach ($mainPhotogalleryData as $sliderItem) {
             echo '
-            <div class="main_photogallery-item"><a data-fancybox="gallery" href="http://'.$_SERVER['SERVER_NAME'].'/ex3/with/src/assets/img/'.$sliderItem['imgName'].'" data-caption="'.$sliderItem['dataCaption'].'" title=""><img src="http://'.$_SERVER['SERVER_NAME'].'/ex3/with/src/assets/img/'.$sliderItem['imgName'].'" alt="" title=""></a></div>
+            <div class="main_photogallery-item"><a data-fancybox="gallery" href="src/assets/img/'.$sliderItem['imgName'].'" data-caption="'.$sliderItem['dataCaption'].'" title=""><img src="src/assets/img/'.$sliderItem['imgName'].'" alt="" title=""></a></div>
             ';
           }
          
           ?>
 
-            <!-- <div class="main_photogallery-item"><a data-fancybox="gallery" href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/gallery.jpg" data-caption="Фото 1" title=""><img src="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/gallery.jpg" alt="" title=""></a></div>
-            
-            <div class="main_photogallery-item"><a data-fancybox="gallery" href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/gallery.jpg" data-caption="Фото 1" title=""><img src="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/gallery.jpg" alt="" title=""></a></div>
-            <div class="main_photogallery-item"><a data-fancybox="gallery" href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/gallery.jpg" data-caption="Фото 1" title=""><img src="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/gallery.jpg" alt="" title=""></a></div>
-            <div class="main_photogallery-item"><a data-fancybox="gallery" href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/gallery.jpg" data-caption="Фото 1" title=""><img src="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/gallery.jpg" alt="" title=""></a></div>
-            <div class="main_photogallery-item"><a data-fancybox="gallery" href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/gallery.jpg" data-caption="Фото 1" title=""><img src="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/gallery.jpg" alt="" title=""></a></div>
-            <div class="main_photogallery-item"><a data-fancybox="gallery" href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/gallery.jpg" data-caption="Фото 1" title=""><img src="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/gallery.jpg" alt="" title=""></a></div>
-            <div class="main_photogallery-item"><a data-fancybox="gallery" href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/gallery.jpg" data-caption="Фото 1" title=""><img src="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/gallery.jpg" alt="" title=""></a></div>
-            <div class="main_photogallery-item"><a data-fancybox="gallery" href="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/gallery.jpg" data-caption="Фото 1" title=""><img src="http://<=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/gallery.jpg" alt="" title=""></a></div>
-          -->
           </div>
         </div>
       </div>

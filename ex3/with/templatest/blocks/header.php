@@ -80,7 +80,7 @@ $navMenuData = array(
       <div class="header_bottom">
         <div class="grid-container">
           <div class="grid-x">
-          <div class="header_logo"><a href="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/index.php">
+          <div class="header_logo"><a href="index.php">
                 <div class="logo">Бытовки-Сервис.ru</div>
                 <div class="logo_text">Аренда бытовок и блок контейнеров с 2008 г.</div></a></div>
             <div class="header_menu">
@@ -88,12 +88,12 @@ $navMenuData = array(
 
                 <?php
                 foreach ($navMenuData as $menuItm) {
-                  echo '<li><a href="http://'.$_SERVER['SERVER_NAME'].'/ex3/with/templatest/'.$menuItm['fileName'].'">'.$menuItm['name'].'</a>';
+                  echo '<li><a href="'.$menuItm['fileName'].'">'.$menuItm['name'].'</a>';
                     
                   if (count($menuItm['submenu']) !== 0) {
                       echo '<ul class="submenu">';
                         foreach ($menuItm['submenu'] as $submenuItm) {
-                         echo '<li><a href="http://'.$_SERVER['SERVER_NAME'].'/ex3/with/templatest/'.$submenuItm['fileName'].'">'.$submenuItm['name'].'</a></li>';
+                         echo '<li><a href="'.$submenuItm['fileName'].'">'.$submenuItm['name'].'</a></li>';
                         }
                       echo '</ul>';
                     }
@@ -133,7 +133,7 @@ $navMenuData = array(
                 </form>
                 <div class="search-result">
                   <div class="search-bytovka">
-                    <div class="search-bytovka-img"><a href="#"><img src="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/search1.png"></a></div>
+                    <div class="search-bytovka-img"><a href="#"><img src="src/assets/img/search1.png"></a></div>
                     <div class="search-bytovka-body"><a class="search-bytovka-title" href="#">Бытовка прорабская (офис)</a>
                       <div class="search-bytovka-gabarits">2400 Х 6000</div>
                     </div>

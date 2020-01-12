@@ -305,8 +305,8 @@ $bytovkaPreviewData = array(
                   // картинки слайдера
                   foreach ($bytovkaPreviewItm['sliderImgs'] as $sliderItm) {
                    echo '
-                   <a data-fancybox="sklad" href="http://'.$_SERVER['SERVER_NAME'].'/ex3/with/src/assets/img/'.$sliderItm['imgName'].'">
-                      <img src="http://'.$_SERVER['SERVER_NAME'].'/ex3/with/src/assets/img/'.$sliderItm['imgName'].'" alt="'.$sliderItm['description'].'" title="'.$sliderItm['title'].'">
+                   <a data-fancybox="sklad" href="src/assets/img/'.$sliderItm['imgName'].'">
+                      <img src="src/assets/img/'.$sliderItm['imgName'].'" alt="'.$sliderItm['description'].'" title="'.$sliderItm['title'].'">
                     </a>
                    ';
                   }
@@ -349,7 +349,7 @@ $bytovkaPreviewData = array(
                 
                 // иконки дополнительных опций
                 foreach ($bytovkaPreviewItm['additionalEquipped'] as $addItm) {
-                  echo '<img src="http://'.$_SERVER['SERVER_NAME'].'/ex3/with/src/assets/img/'.$addItm['imgName'].'" alt="'.$addItm['description'].'" title="'.$addItm['title'].'">';
+                  echo '<img src="src/assets/img/'.$addItm['imgName'].'" alt="'.$addItm['description'].'" title="'.$addItm['title'].'">';
                 }
                                
                   echo '</div>

@@ -41,8 +41,8 @@ $photogalleryData = array(
             foreach ($photogalleryData as $photo) {
               echo '
                 <div class="photogallery-for-item">
-                  <div class="photogallery-for-img"><a href="http://'.($_SERVER['SERVER_NAME']).'/ex3/with/src/assets/img/'.$photo['photoName'].'" data-fancybox="photogallery" data-caption="Бытовка-склад" title="">
-                    <img src="http://'.($_SERVER['SERVER_NAME']).'/ex3/with/src/assets/img/'.$photo['photoName'].'" alt="" title=""></a>
+                  <div class="photogallery-for-img"><a href="src/assets/img/'.$photo['photoName'].'" data-fancybox="photogallery" data-caption="Бытовка-склад" title="">
+                    <img src="src/assets/img/'.$photo['photoName'].'" alt="" title=""></a>
                   </div>
                   <div class="photogallery-for-caption">'.$photo['caption'].'</div>
                 </div>
@@ -86,27 +86,27 @@ $photogalleryData = array(
             <div class="photogallery-nav">
 
               <div class="photogallery-nav-item">
-                <div class="photogallery-nav-img"><img src="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/photo1.jpg" alt="" title=""></div>
+                <div class="photogallery-nav-img"><img src="src/assets/img/photo1.jpg" alt="" title=""></div>
               </div>
 
               <div class="photogallery-nav-item">
-                <div class="photogallery-nav-img"><img src="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/photo2.jpg" alt="" title=""></div>
+                <div class="photogallery-nav-img"><img src="src/assets/img/photo2.jpg" alt="" title=""></div>
               </div>
 
               <div class="photogallery-nav-item">
-                <div class="photogallery-nav-img"><img src="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/photo3.jpg" alt="" title=""></div>
+                <div class="photogallery-nav-img"><img src="src/assets/img/photo3.jpg" alt="" title=""></div>
               </div>
 
               <div class="photogallery-nav-item">
-                <div class="photogallery-nav-img"><img src="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/photo4.jpg" alt="" title=""></div>
+                <div class="photogallery-nav-img"><img src="src/assets/img/photo4.jpg" alt="" title=""></div>
               </div>
 
               <div class="photogallery-nav-item">
-                <div class="photogallery-nav-img"><img src="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/photo5.jpg" alt="" title=""></div>
+                <div class="photogallery-nav-img"><img src="src/assets/img/photo5.jpg" alt="" title=""></div>
               </div>
 
               <div class="photogallery-nav-item">
-                <div class="photogallery-nav-img"><img src="http://<?=($_SERVER['SERVER_NAME'])?>/ex3/with/src/assets/img/photo6.jpg" alt="" title=""></div>
+                <div class="photogallery-nav-img"><img src="src/assets/img/photo6.jpg" alt="" title=""></div>
               </div>
 
             </div>

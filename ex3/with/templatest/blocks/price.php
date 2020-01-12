@@ -48,9 +48,9 @@ $priceData = array(
                   <div class="price_item">
 
                 <div class="price_img">
-                  <a data-fancybox="price" href="http://'.$_SERVER['SERVER_NAME'].'/ex3/with/src/assets/img/'.$containerProp['priceImage'].'" title="">
-                    <img src="http://'.$_SERVER['SERVER_NAME'].'/ex3/with/src/assets/img/'.$containerProp['priceImage'].'" alt="" title="">
-                    <a class="lupa" data-fancybox="price" href="http://'.$_SERVER['SERVER_NAME'].'/ex3/with/src/assets/img/'.$containerProp['priceImage'].'"></a>
+                  <a data-fancybox="price" href="src/assets/img/'.$containerProp['priceImage'].'" title="">
+                    <img src="src/assets/img/'.$containerProp['priceImage'].'" alt="" title="">
+                    <a class="lupa" data-fancybox="price" href="src/assets/img/'.$containerProp['priceImage'].'"></a>
                   </a>
                 </div>
 
@@ -72,33 +72,6 @@ $priceData = array(
             
 
             ?>
-
-
-<!-- 
-            <div class="price_item">
-
-              <div class="price_img">
-                <a data-fancybox="price" href="http://($_SERVER['SERVER_NAME'])/ex3/with/src/assets/img/price.jpg" title="">
-                  <img src="http://($_SERVER['SERVER_NAME'])/ex3/with/src/assets/img/price.jpg" alt="" title="">
-                  <a class="lupa" data-fancybox="price" href="http://($_SERVER['SERVER_NAME'])/ex3/with/src/assets/img/price.jpg"></a>
-                </a>
-              </div>
-
-              <div class="price_content">
-
-                <div class="price_description">
-                  <div class="price_title"> Блок контейнер 2,5 х 6 м</div>
-                  <div class="price_text">
-                    <div><span>Наружная обшивка: </span>металлический каркас оцинкованный профнастил С-8</div>
-                    <div><span>Внутренняя отделка: </span>ДВП утепление 50 мм электрика</div>
-                  </div>
-                </div>
-
-                <div class="price_summ"><span></span>по запросу</div>
-              </div>
-            </div> -->
-
-           
 
           </div>
           <div class="grid-x">

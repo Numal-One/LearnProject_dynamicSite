@@ -13,7 +13,7 @@
             
             <?php
             foreach ($navMenuData as $menuItm) {
-            echo ' <li><a href="http://'.$_SERVER['SERVER_NAME'].'/ex3/with/templatest/'.$menuItm['fileName'].'">'.$menuItm['name'].'</a></li>';
+            echo ' <li><a href="/templatest/'.$menuItm['fileName'].'">'.$menuItm['name'].'</a></li>';
             }
             ?>
 
