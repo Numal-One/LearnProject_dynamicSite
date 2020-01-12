@@ -1,5 +1,20 @@
+<?php
+$headTitlesData = array(
+    'catalog.php' => 'Каталог',
+    'price.php' => 'Цены',
+    'delivery.php' => 'Доставка',
+    'photogallery.php' => 'Галерея',
+    'contacts.php' => 'Контакты',
+    'index.php' => 'Бытовки'
+);
+
+$thisPageName = explode('/', $_SERVER['PHP_SELF']);
+$thisPageName = array_pop($thisPageName);
+
+?>
+
 <head>
-    <title>home page</title>
+    <title><?=$headTitlesData[$thisPageName]?></title>
     <meta name="viewport" content="width=device-width">
     <meta charset="utf-8">
     <script src="https://api-maps.yandex.ru/2.1/?apikey=f461f187-b614-45c4-988e-6b214fceb781&amp;lang=ru_RU" type="text/javascript"></script></script>
