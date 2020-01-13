@@ -1,5 +1,6 @@
 
 <head>
+<!-- если  в массиве значение $data['title'] не пустое, то пишем в title  это значение, если пустое, то пишем стандартную фразу-->
     <title><?php if (!empty($data['title'])){echo $data['title'];} else{echo "заголовок какой то";};?></title>
     <meta name="viewport" content="width=device-width">
     <meta charset="utf-8">

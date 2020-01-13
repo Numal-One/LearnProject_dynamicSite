@@ -20,7 +20,7 @@
         </div>
         
         
-        <?php include_once (PATH_TPL . "blocks/bytovka-preview.php");?>
+        <?php   include_once (PATH_TPL . "blocks/bytovka-preview.php");?>
 
         <?php   include_once (PATH_TPL . "blocks/byt-calc.php");  ?>
 

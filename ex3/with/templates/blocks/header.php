@@ -27,9 +27,12 @@ $navMenuData = $database['navMenuData'];
               <ul class="menu">
 
                 <?php
+                // отрисовка элементов меню
                 foreach ($navMenuData as $menuItm) {
                   echo '<li><a href="'.$menuItm['fileName'].'">'.$menuItm['name'].'</a>';
                     
+                  // отрисовка элементов подменю
+                  // если массив с элементами подменю не пустой, то...
                   if (count($menuItm['submenu']) !== 0) {
                       echo '<ul class="submenu">';
                         foreach ($menuItm['submenu'] as $submenuItm) {
