@@ -1,34 +1,5 @@
 <?php
-$mainPhotogalleryData = array(
-  1 => array(
-    'imgName' => 'gallery.jpg',
-    'dataCaption' => 'Фото 1'
-  ),
-  2 => array(
-    'imgName' => 'gallery.jpg',
-    'dataCaption' => 'Фото 1'
-  ),
-  3 => array(
-    'imgName' => 'gallery.jpg',
-    'dataCaption' => 'Фото 1'
-  ),
-  4 => array(
-    'imgName' => 'gallery.jpg',
-    'dataCaption' => 'Фото 1'
-  ),
-  5 => array(
-    'imgName' => 'gallery.jpg',
-    'dataCaption' => 'Фото 1'
-  ),
-  6 => array(
-    'imgName' => 'gallery.jpg',
-    'dataCaption' => 'Фото 1'
-  ),
-  7 => array(
-    'imgName' => 'gallery.jpg',
-    'dataCaption' => 'Фото 1'
-  ),
-);
+$mainPhotogalleryData = $database['mainPhotogalleryData'];
 ?>
 
 

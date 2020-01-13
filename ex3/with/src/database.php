@@ -1,6 +1,6 @@
 <?php
 
-echo '<br> incl database';
+// echo '<br> incl database';
 
 $database = array(
   'pages' => array(
@@ -553,7 +553,7 @@ $database = array(
     ),
   ),
 
-  '$mainPhotogalleryData' => array(
+  'mainPhotogalleryData' => array(
     1 => array(
       'imgName' => 'gallery.jpg',
       'dataCaption' => 'Фото 1'

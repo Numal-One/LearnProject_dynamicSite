@@ -1,5 +1,4 @@
 <?php
-echo "<br> include model.php";
 
 function searchData(&$database, $url_key){
 

@@ -1,44 +1,5 @@
 <?php
-$bytovkaTechCharacteristics = array(
-  1 => array(
-    "title" => "Стандартная бытовка",
-    "charsTableHead" => "Характеристики стандартной строительной бытовки",
-    "imageName" => "standartnaya-bytovka-texnicheskie-xarakteristiki.jpg",
-    "characteristics" => array(
-      "entry" => array("Тип" , "Вход с торца"),
-      "profile" => array("Габариты" , "2,5 х 6 х 2,5 м"),
-      "frame" => array("Каркас" , "Металлический"),
-      "window" => array("Окно" , "Рама деревянная (двойное остекление)"),
-      "exterior" => array("Внешняя отделка" , "Оцинкованный профлист"),
-      "interior" => array("Внутренняя отделка" , "Деревянная, ПХВ вагонка, оргалит"),
-      "flooring" => array("Напольное покрытие" , "Линолеум"),
-      "outer door" => array("Дверь наружная" , "Деревянная (с замком, обитая жестью)"),
-      "inner door" => array("Дверь межкомнатная" , "ДВП"),
-      "insulation" => array("Утепление" , "Минеральная вата 50 мм."),
-      "electrical wiring" => array("Электропроводка" , "Стандарт 5 КВт (2 лампы, 1 светильник, 3 розетки двойные, 2 выключателя)"),
-      "window grill" => array("Решетка на окне" , "Есть")
-    )
-  ),
-  2 => array(
-    "title" => "Не стандартная бытовка",
-    "charsTableHead" => "Характеристики не стандартной строительной бытовки",
-    "imageName" => "standartnaya-bytovka-texnicheskie-xarakteristiki2.jpg",
-    "characteristics" => array(
-      "entry" => array("Тип" , "Неведомая 4х мерная хрень"),
-      "profile" => array("Габариты" , "2 х 2 х 2 х 2 м"),
-      "frame" => array("Каркас" , "Чугуниевый"),
-      "window" => array("Окно" , "Отсутствует"),
-      "exterior" => array("Внешняя отделка" , "Инкрустация беличьими черепами"),
-      "interior" => array("Внутренняя отделка" , "Кожа с жопы дракона"),
-      "flooring" => array("Напольное покрытие" , "Вязаный коврик"),
-      "outer door" => array("Дверь наружная" , "Гермодверь"),
-      "inner door" => array("Дверь межкомнатная" , "Занавеска"),
-      "insulation" => array("Утепление" , "Чугунные батареи"),
-      "electrical wiring" => array("Электропроводка" , "Отсутствует"),
-      "window grill" => array("Решетка на окне" , "Нет")
-    )
-  ),
-);
+$bytovkaTechCharacteristics = $database['bytovkaTechCharacteristics'];
 
 
 

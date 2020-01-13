@@ -1,5 +1,5 @@
 <?php
-
+$navMenuData = $database['navMenuData'];
 ?>
 
 
@@ -17,13 +17,7 @@
             }
             ?>
 
-            
-            <!-- <li><a href="/">Аренда бытовки</a></li>
-            <li><a href="/czenyi/ ">Цены</a></li>
-            <li><a href="/dostavka/">Доставка</a></li>
-            <li><a href="/fotogalereya/">Фотогалерея</a></li>
-            <li><a href="/kontaktyi/">Контакты</a></li> -->
-
+          
             </ul>
             
         </div>

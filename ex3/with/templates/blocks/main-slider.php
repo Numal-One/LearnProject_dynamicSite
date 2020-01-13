@@ -1,36 +1,5 @@
 <?php
-$mainSliderData = array(
-1 => array(
-  'imgName' => 'bytovka1.png',
-  'heading' => 'Строительные бытовки недорого!',
-  'description' => ''
-),
-2 => array(
-  'imgName' => 'bytovka2.png',
-  'heading' => 'Строительные недорого!',
-  'description' => 'Компания "Бытовки-Сервис" предлагает взять в аренду бытовку для жилья'
-),
-3 => array(
-  'imgName' => 'bytovka3.png',
-  'heading' => 'Строительные бытовки!',
-  'description' => 'Компания "Бытовки-Сервис" предлагает взять в аренду бытовку для жилья'
-),
-4 => array(
-  'imgName' => 'bytovka4.png',
-  'heading' => 'Строительные бытовки дорого!',
-  'description' => 'Компания "Бытовки-Сервис" предлагает взять в аренду бытовку для жилья'
-),
-5 => array(
-  'imgName' => 'bytovka5.png',
-  'heading' => 'Бытовки недорого!',
-  'description' => 'Компания "Бытовки-Сервис" предлагает взять в аренду бытовку для жилья'
-),
-6 => array(
-  'imgName' => 'bytovka6.png',
-  'heading' => 'Строительные не бытовки недорого!',
-  'description' => 'Компания "Бытовки-Сервис" предлагает взять в аренду бытовку для жилья'
-)
-);
+$mainSliderData = $database['mainSliderData'];
 
 ?>
 

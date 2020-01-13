@@ -1,50 +1,5 @@
 <?php
-$ourArticles = array(
-  1 => array(
-    'href' => '/pokupka-ili-arenda-byitovok/',
-    'title' => 'Покупка или аренда бытовок'
-  ),
-  2 => array(
-    'href' => '/xarakteristiki-byitovok/',
-    'title' => 'Характеристики бытовок'
-  ),
-  3 => array(
-    'href' => '/naznachenie-byitovok/',
-    'title' => 'Назначение бытовок'
-  ),
-  4 => array(
-    'href' => '/ispolzovanie-krana-manipulyatora/',
-    'title' => 'Использование крана-манипулятора'
-  ),
-  5 => array(
-    'href' => '/kupit-byitovku-bu/',
-    'title' => 'Кубить бытовку бу'
-  ),
-  6 => array(
-    'href' => '/byitovka-sklad/',
-    'title' => 'Бытовка - склад'
-  ),
-  7 => array(
-    'href' => '/bytovka-prorabskaya-ofis/',
-    'title' => 'Бытовка прорабская(офис)'
-  ),
-  8 => array(
-    'href' => '/byitovka-zhilaya/',
-    'title' => 'Бытовка жилая'
-  ),
-  9 => array(
-    'href' => '/byitovka-stolovaya/',
-    'title' => 'Бытовка столовая'
-  ),
-  10 => array(
-    'href' => '/byitovka-razdevalka/',
-    'title' => 'Бытовка раздевалка'
-  ),
-  11 => array(
-    'href' => '/bytovka-post-oxrany/',
-    'title' => 'Бытовка пост охраны'
-  ),
-);
+$ourArticles = $database['ourArticles'];
 
 ?>
 

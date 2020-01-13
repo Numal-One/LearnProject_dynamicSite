@@ -1,3 +1,6 @@
+<?php
+$navMenuData = $database['navMenuData'];
+?>
 
 <div class="mobile_menu">
       <div class="mobile_wrap">
