@@ -11,7 +11,7 @@
 <?php
 
 $deposit = [
-  'Adam' => [200, -100, 300, 400, -300, -500, 120, 400],
+  'Adam' => [200, -100, 300, 400, -300, -500, 120, 400, 1100],
   'Tommy' => [1000, 500, 5000, -6500, 250, -100, 400],
   'John' => [120, 100, 300, 430, 1200, -1000, 300, -100, -10, -400]
 ];
@@ -19,9 +19,12 @@ $deposit = [
 
 function showBalance($arr) {
   foreach ($arr as $key => $value) {
-    sort($value);
-    $balance = array_sum($value);
-    echo "<br>Детализация по счету г-на $key <br> Движение средств: ".join(', ',$value).". <br> Всего на счету $balance <br>";
+    $arr[$key] = array_sum($value);
+  }
+  asort($arr);
+  echo "<br> Список людей сортирован по сумме вкладов: ";
+  foreach ($arr as $key => $value) {
+    echo "<br> $key - $value";
   }
 }
 

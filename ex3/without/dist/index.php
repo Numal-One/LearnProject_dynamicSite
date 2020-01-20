@@ -645,6 +645,7 @@
             <div class="link-more"><a href="/czenyi/">Перейти в раздел</a></div>
           </div>
           <div class="price_wrapper">
+
             <div class="price_item">
               <div class="price_img"><a data-fancybox="price" href="../assets/img/price.jpg" title=""><img src="../assets/img/price.jpg" alt="" title=""><a class="lupa" data-fancybox="price" href="../assets/img/price.jpg"></a></a></div>
               <div class="price_content">
@@ -658,6 +659,7 @@
                 <div class="price_summ"><span>7000</span>Р/мес</div>
               </div>
             </div>
+            
             <div class="price_item">
               <div class="price_img"><a data-fancybox="price" href="../assets/img/price.jpg" title=""><img src="../assets/img/price.jpg" alt="" title=""><a class="lupa" data-fancybox="price" href="../assets/img/price.jpg"></a></a></div>
               <div class="price_content">
